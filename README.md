@@ -1,1 +1,1 @@
-# odin-recipes
+An odin-recipes project using html only with some webpages linked to it
