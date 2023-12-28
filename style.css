@@ -1,0 +1,56 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Ingredients and Preparation */
+h2 {
+    color: #444;
+}
+
+ul, ol {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Navigation Links */
+a {
+    text-decoration: none;
+    color: #06a;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+a:hover {
+    color: #f60;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
